@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/legler/static/css/main.5c194cd7.css",
-    "main.js": "/legler/static/js/main.e29163c6.js",
+    "main.js": "/legler/static/js/main.2f43ac1e.js",
+    "static/media/6I8B0457-500x692.jpg": "/legler/static/media/6I8B0457-500x692.444505d0d8a4b034bb2f.jpg",
     "static/media/logo.png": "/legler/static/media/logo.f8a77c050047544e5808.png",
     "index.html": "/legler/index.html",
     "main.5c194cd7.css.map": "/legler/static/css/main.5c194cd7.css.map",
-    "main.e29163c6.js.map": "/legler/static/js/main.e29163c6.js.map"
+    "main.2f43ac1e.js.map": "/legler/static/js/main.2f43ac1e.js.map"
   },
   "entrypoints": [
     "static/css/main.5c194cd7.css",
-    "static/js/main.e29163c6.js"
+    "static/js/main.2f43ac1e.js"
   ]
 }
