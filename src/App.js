@@ -2,15 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.png';
+import kep from './6I8B0457-500x692.jpg';
 import { Modal, Button, Navbar, Container, Carousel } from 'react-bootstrap';
 import './App.css';
 
 const products = [
-  { id: 1, name: "Miele Mosógép", price: 120000, img: "./6I8B0457-500x692.jpg", description: "Miele mosógép W Meteor3000, használt, szervizünk által felújított , ezért garanciával adunk rá." },
-  { id: 2, name: "Miele Kávéfőző", price: 250000, img: "./miele-cm-6160-2.webp", description: "" },
-  { id: 3, name: "Miele Kávéfőző", price: 350000, img: "./miele-cm-6160-2.webp", description: "" },
-  { id: 4, name: "Miele Mosógép", price: 120000, img: "./6I8B0457-500x692.jpg", description: "Miele mosógép W Meteor3000, használt, szervizünk által felújított , ezért garanciával adunk rá." },
-  { id: 5, name: "Miele Kávéfőző", price: 250000, img: "./miele-cm-6160-2.webp", description: "" },
+  { id: 1, name: "Miele Mosógép", price: 120000, img: {kep}, description: "Miele mosógép W Meteor3000, használt, szervizünk által felújított , ezért garanciával adunk rá." },
+  { id: 2, name: "Miele Kávéfőző", price: 250000, img: "/miele-cm-6160-2.webp", description: "" },
+  { id: 3, name: "Miele Kávéfőző", price: 350000, img: "/miele-cm-6160-2.webp", description: "" },
+  { id: 4, name: "Miele Mosógép", price: 120000, img: "/6I8B0457-500x692.jpg", description: "Miele mosógép W Meteor3000, használt, szervizünk által felújított , ezért garanciával adunk rá." },
+  { id: 5, name: "Miele Kávéfőző", price: 250000, img: "/miele-cm-6160-2.webp", description: "" },
   // További termékek...
 ];
 
@@ -148,7 +149,7 @@ function ProductCarousel() {
     <div className="carousel-container mt-4">
       <Carousel>
         <Carousel.Item>
-          <img className="d-block mx-auto img-fluid" src="./slide_show_miert_miele.jpg" alt="Hirdetés 1" />
+          <img className="d-block mx-auto img-fluid" src="/slide_show_miert_miele.jpg" alt="Hirdetés 1" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block mx-auto img-fluid" src="/slide_show_szerviz.jpg" alt="Hirdetés 2" />
