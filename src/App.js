@@ -148,7 +148,7 @@ function ProductCarousel() {
     <div className="carousel-container mt-4">
       <Carousel>
         <Carousel.Item>
-          <img className="d-block mx-auto img-fluid" src="/slide_show_miert_miele.jpg" alt="Hirdetés 1" />
+          <img className="d-block mx-auto img-fluid" src="./slide_show_miert_miele.jpg" alt="Hirdetés 1" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block mx-auto img-fluid" src="/slide_show_szerviz.jpg" alt="Hirdetés 2" />
