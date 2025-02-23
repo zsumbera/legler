@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/legler/static/css/main.5c194cd7.css",
+    "main.js": "/legler/static/js/main.e29163c6.js",
+    "static/media/logo.png": "/legler/static/media/logo.f8a77c050047544e5808.png",
+    "index.html": "/legler/index.html",
+    "main.5c194cd7.css.map": "/legler/static/css/main.5c194cd7.css.map",
+    "main.e29163c6.js.map": "/legler/static/js/main.e29163c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c194cd7.css",
+    "static/js/main.e29163c6.js"
+  ]
+}
